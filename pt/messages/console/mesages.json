@@ -7,6 +7,13 @@
 
     },
     "database": {
-
+        "unknownData":"{WARNING} Faltam dados para que a firebase funciona!!",
+        "noAuthentication": [
+            "{SUCCESS} Ligada mas sem Autenticação!!",
+            "{WARNING} A sua Autenticação não fui isso significa que só pode usar dados publicos!!"
+        ],
+        "authentication": "{SUCCESS} Banco de Dados autenticado com sucesso",
+        "noPermAuthentication":"{WARNING} Autenticação não fui ativada ligando!!",
+        "errAuthentication":"{ERROR} Falha ao autenticar o banco de dados!!"
     }
 }
