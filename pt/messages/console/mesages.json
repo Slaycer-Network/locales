@@ -4,15 +4,21 @@
         "create": "{SM}{INFO} Ativando shard {shard}/{shardTotal}"
     },
     "cmd": {
-
+        "loadError": "{ERROR} Não fui possivel executar o comando {command}:",
+        "registred": "{SUCCESS} Comando {command} registrado!!",
+        "loadSuccess": "{SUCCESS} Comando {command} ativado com sucesso!!",
+        "execError": "{ERROR} Falha ao executar o comando {command}!!"
     },
     "database": {
-        "unknownData":"{WARNING} Faltam dados para que a MongoDB funcione!!",
+        "unknownData": "{WARNING} Faltam dados para que a MongoDB funcione!!",
         "noAuthentication": [
             "{SUCCESS} Ligada mas sem Autenticação!!",
             "{WARNING} A sua Autenticação não fui isso significa que só pode usar dados publicos!!"
         ],
         "authentication": "{SUCCESS} Banco de Dados autenticado com sucesso",
-        "errAuthentication":"{ERROR} Falha ao autenticar o banco de dados!!"
-    }
+        "errAuthentication": "{ERROR} Falha ao autenticar o banco de dados!!",
+        "findError": "{ERROR} Falha ao verificar os dados na database",
+        "createError": "{ERROR} Falha ao registrar os dados na database"
+    },
+    "ready": "{SUCCESS} {BotName} fui iniciado com sucesso!!"
 }
